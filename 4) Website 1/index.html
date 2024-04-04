@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website - 1</title>
+</head>
+
+<!-- LINKS -->
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <script src="script.js"></script>
+    <!-- MAIN-PAGE -->
+    <d class="page">
+        
+        <!-- MAIN-SIDEBAR -->
+        <div class="sidebar20">
+            <img class="logo" src="images/logo-light-full.png" alt="">
+            <br>
+            <h4>APPS</h4>
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-square-poll-vertical"></i>
+                    <b class="z">Project</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Dashboard</h4>
+                <h4 class="s">Project List</h4>
+                <h4 class="s">Scrum Board</h4>
+                <h4 class="s">Issue</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-people-group"></i>
+                    <b class="z">CRM</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Dashboard</h4>
+                <h4 class="s">Calendar</h4>
+                <h4 class="s">Customers</h4>
+                <h4 class="s">Customer Details</h4>
+                <h4 class="s">Mail</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <b class="z">Sales</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Dashboard</h4>
+                <h4 class="s">Product List</h4>
+                <h4 class="s">Product Edit</h4>
+                <h4 class="s">New Product</h4>
+                <h4 class="s">Order List</h4>
+                <h4 class="s">Order Details</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-brands fa-bitcoin"></i>
+                    <b class="z">Crypto</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Dashboard</h4>
+                <h4 class="s">Portfolio</h4>
+                <h4 class="s">Market</h4>
+                <h4 class="s">Wallets</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-book-open"></i>
+                    <b class="z">Knowledge Based</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Help Center</h4>
+                <h4 class="s">Article</h4>
+                <h4 class="s">Manage Articles</h4>
+                <h4 class="s">Edit Article</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <b class="z">Acount</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Setting</h4>
+                <h4 class="s">Invoice</h4>
+                <h4 class="s">Activity Log</h4>
+                <h4 class="s">KYC Form</h4>
+            </div>
+
+
+
+            <br>
+            <br>
+            <h4>UI COMPONENTS</h4>
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-swatchbook"></i>
+                    <b class="z">Common</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Button</h4>
+                <h4 class="s">Grid</h4>
+                <h4 class="s">Typography</h4>
+                <h4 class="s">Icons</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-comment-dots"></i>
+                    <b class="z">Feedback</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Alert</h4>
+                <h4 class="s">Dialog</h4>
+                <h4 class="s">Drawer</h4>
+                <h4 class="s">Progress</h4>
+                <h4 class="s">Skeleton</h4>
+                <h4 class="s">Spinner</h4>
+                <h4 class="s">Toast</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-desktop"></i>
+                    <b class="z">Data Display</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Avatar</h4>
+                <h4 class="s">Badge</h4>
+                <h4 class="s">Calendar</h4>
+                <h4 class="s">Cards</h4>
+                <h4 class="s">Table</h4>
+                <h4 class="s">Tag</h4>
+                <h4 class="s">Timeline</h4>
+                <h4 class="s">Tooltip</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-file-lines"></i>
+                    <b class="z">Forms</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Checkbox</h4>
+                <h4 class="s">Date Picker</h4>
+                <h4 class="s">Form Control</h4>
+                <h4 class="s">Input Group</h4>
+                <h4 class="s">Radio</h4>
+                <h4 class="s">Segment</h4>
+                <h4 class="s">Select</h4>
+                <h4 class="s">Switcher</h4>
+                <h4 class="s">Time Input</h4>
+                <h4 class="s">Upload</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-compass"></i>
+                    <b class="z">Navigation</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Dropdown</h4>
+                <h4 class="s">Menu</h4>
+                <h4 class="s">Pagination</h4>
+                <h4 class="s">Steps</h4>
+                <h4 class="s">Tabs</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <b class="z">Graph</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Charts</h4>
+                <h4 class="s">Maps</h4>
+            </div>
+
+
+
+            <br>
+            <br>
+            <h4>PAGES</h4>
+            <div class="x1">
+                <div class="a11">
+                    <i class="fa-solid fa-hand"></i>
+                    <b class="z">Welcome</b>
+                </div>
+            </div>
+
+            <div class="x1">
+                <div class="a11">
+                    <i class="fa-solid fa-ban"></i>
+                    <b class="z">Access Denied</b>
+                </div>
+            </div>
+
+
+
+            <br>
+            <br>
+            <h4>AUTHENTICATION</h4>
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <b class="z">Sign in</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Simple</h4>
+                <h4 class="s">Side</h4>
+                <h4 class="s">Cover</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <b class="z">Sign Up</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Simple</h4>
+                <h4 class="s">Side</h4>
+                <h4 class="s">Cover</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-lock"></i>
+                    <b class="z">Forgot Password</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Simple</h4>
+                <h4 class="s">Side</h4>
+                <h4 class="s">Cover</h4>
+            </div>
+
+            <div class="a1">
+                <div class="a11">
+                    <i class="fa-solid fa-key"></i>
+                    <b class="z">Reset Password</b>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="slide">
+                <h4 class="s">Simple</h4>
+                <h4 class="s">Side</h4>
+                <h4 class="s">Cover</h4>
+            </div>
+
+            
+            
+            <br>
+            <br>
+            <h4>GUIDE</h4>
+            <div class="x1">
+                <div class="a11">
+                    <i class="fa-solid fa-file-lines"></i>
+                    <b class="z">Documentation</b>
+                </div>
+            </div>
+
+            <div class="x1">
+                <div class="a11">
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <b class="z">Shared Component</b>
+                </div>
+            </div>
+
+            <div class="x1">
+                <div class="a11">
+                    <i class="fa-solid fa-masks-theater"></i>
+                    <b class="z">Utilities</b>
+                </div>
+            </div>
+
+            <div class="x1">
+                <div class="a11">
+                    <i class="fa-solid fa-code"></i>
+                    <b class="z">Changelog</b>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SECONDARY-SIDEBAR -->
+        <div class="sidebar5">
+            <img src="images/logo-light-streamline.png" alt="">
+            <div class="b1">
+                <i class="fa-solid fa-square-poll-vertical"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-people-group"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-brands fa-bitcoin"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-swatchbook"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-comment-dots"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-desktop"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-file-lines"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-compass"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-chart-pie"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-hand"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-ban"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-right-to-bracket"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-key"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-file-lines"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-masks-theater"></i>
+            </div>
+            <div class="b1">
+                <i class="fa-solid fa-code"></i>
+            </div>         
+        </div>
+
+        <!-- MAIN SECTION -->
+        <div class="second-div-1">
+
+            <!-- MAIN-BAR -->
+            <div class="main-bar">      
+                <div class="icons1">
+                    <div class="circle1">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                    <div class="circle2">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <div class="icons2">
+                    <div class="circle4">
+                        <img src="images/india.png" alt="">
+                    </div>
+                    <div class="circle5">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <div class="circle6">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="profile">
+                        <div class="images">
+                            <img src="images/profilepic.jpg" alt="">
+                        </div>
+                        <div class="profile-text">
+                            <p>Admin</p>
+                            <b>Kamal S.</b>
+                        </div>
+                    </div>
+                    <div class="profile_card">
+                        <div class="profile_div_1">
+                            <div class="images">
+                                <img src="images/profilepic.jpg" alt="">
+                            </div>
+                            <div class="profile-text">
+                                <p>Kamal Sagpariya</p>
+                                <b>kamalsagpariya7@gmail.com</b>
+                            </div>
+                        </div><hr>
+                        <div class="v1">
+                            <i class="fa-solid fa-user"></i>
+                            <b>Profile</b>
+                        </div>
+                        <div class="v1">
+                            <i class="fa-solid fa-gear"></i>
+                            <b>Account Setting</b>
+                        </div>
+                        <div class="v1">
+                            <i class="fa-solid fa-wave-square"></i>
+                            <b>Activity Log</b>
+                        </div>
+                        <hr>
+                        <div class="v1">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                            <b>Signed Out</b>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+
+            <!-- FILTER SECTION -->
+            <div class="main-filter">
+                <div class="txt">
+                    <h1>Sales Overview</h1>
+                    <p>View your current sales & summary</p>
+                </div>
+
+                <div class="filter">
+                    <div class="calendar">
+                        <b>Nov 16, 2023 ~ Feb 16, 2024</b>
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="fil">
+                        <i class="fa-solid fa-filter"></i>
+                        <b>Filter</b>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARDS -->
+            <div class="card">
+                <div class="cr">
+                    <div class="txt-2">
+                        <b>Revenue</b>
+                        <br>
+                        <h2>$21,827.13</h2>
+                        <p>vs. 3 months prior to 20 Jan</p>
+                    </div>
+                    <div class="up-down">
+                        <i class="fa-solid fa-arrow-up" style="color: #469669;"></i>
+                        <b>11.4%</b>
+                    </div>
+                </div>
+
+                <div class="cr">
+                    <div class="txt-2">
+                        <b>Orders</b>
+                        <br>
+                        <h2>1,758</h2>
+                        <p>vs. 3 months prior to 20 Jan</p>
+                    </div>
+                    <div class="up-down" style="background-color: #FEE2E2;">
+                        <i class="fa-solid fa-arrow-down" style="color: #DD2626;"></i>
+                        <b style="color: #DD2626;">-3.2%</b>
+                    </div>
+                </div>
+
+                <div class="cr">
+                    <div class="txt-2">
+                        <b>Purchases</b>
+                        <br>
+                        <h2>$7,249.31</h2>
+                        <p>vs. 3 months prior to 20 Jan</p>
+                    </div>
+                    <div class="up-down">
+                        <i class="fa-solid fa-arrow-up" style="color: #469669;"></i>
+                        <b>5.7%</b>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GRAPHS -->
+            <div class="graph">
+                <div class="graph-1">
+                    <div class="g1">
+                        <h1>Sales Report</h1>
+                        <button>Export Report</button>
+                    </div>
+                    <div id="chart1">
+
+                    </div>
+                </div>
+                <div class="graph-2">
+                    <div class="g2">
+                        <h1>Categories</h1>
+                    </div>
+                    <div id="chart4"></div>
+                </div>
+            </div>
+
+            <!-- SELLING - ORDER -->
+            <div class="selling-order">
+                <div class="order">
+                    <div class="o1">
+                        <h1>Latest Orders</h1>
+                        <button>View Orders</button>
+                    </div>
+                    <div class="order-table">
+                        <div class="order-1">
+                            <div class="h1">ORDER</div>
+                            <div class="d1">#95954</div>
+                            <div class="d1">#95951</div>
+                            <div class="d1">#95953</div>
+                            <div class="d1">#95950</div>
+                            <div class="d1">#95956</div>
+                            <div class="d1">#95952</div>
+                            <div class="d1">#95959</div>
+                        </div>
+                        <div class="order-1">
+                            <div class="h1">STATUS</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: #469669;"></i>&nbsp;&nbsp;&nbsp;Paid</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: #469669;"></i>&nbsp;&nbsp;&nbsp;Paid</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: orange;"></i>&nbsp;&nbsp;&nbsp;Pending</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: red;"></i>&nbsp;&nbsp;&nbsp;Failed</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: #469669;"></i>&nbsp;&nbsp;&nbsp;Paid</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: red;"></i>&nbsp;&nbsp;&nbsp;Failed</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: #469669;"></i>&nbsp;&nbsp;&nbsp;Paid</div>
+                        </div>
+                        <div class="order-1">
+                            <div class="h1">DATE</div>
+                            <div class="d1">10/08/2022</div>
+                            <div class="d1">30/07/2022</div>
+                            <div class="d1">18/07/2022</div>
+                            <div class="d1">09/07/2022</div>
+                            <div class="d1">02/06/2022</div>
+                            <div class="d1">19/03/2022</div>
+                            <div class="d1">09/03/2022</div>
+                        </div>
+                        <div class="order-1 oo">
+                            <div class="h1">CUSTOMER</div>
+                            <div class="d1">Ron Vargas</div>
+                            <div class="d1">Carolyn Hanso</div>
+                            <div class="d1">Gabriella May</div>
+                            <div class="d1">Tara Fletcher</div>
+                            <div class="d1">Eileen Horton</div>
+                            <div class="d1">Lloyd Obrien</div>
+                            <div class="d1">Tara Fletcher</div>
+                        </div>
+                        <div class="order-1 oo1">
+                            <div class="h1">PROFILE PROGRESS</div>
+                            <div class="d1">$168.00</div>
+                            <div class="d1">$523.00</div>
+                            <div class="d1">$81.00</div>
+                            <div class="d1">$279.00</div>
+                            <div class="d1">$597.00</div>
+                            <div class="d1">$189.00</div>
+                            <div class="d1">$672.00</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="selling">
+                    <div class="s1">
+                        <h1>Top Selling</h1>
+                        <button>View Products</button>
+                    </div>
+                    <div class="s2">
+                        <div class="se1">
+                            <div class="s21">PRODUCT</div>  
+                            <div class="s211">
+                                <div class="img">
+                                    <img src="images/product-1.jpg" alt="">
+                                </div>
+                                <div class="txt-3">
+                                    <b>Luminaire Giotto Headphones</b>
+                                </div>
+                            </div>
+                            <div class="s211">
+                                <div class="img">
+                                    <img src="images/product-2.jpg" alt="">
+                                </div>
+                                <div class="txt-3">
+                                    <b>Black Sneaker</b>
+                                </div>
+                            </div>
+                            <div class="s211">
+                                <div class="img">
+                                    <img src="images/product-3.jpg" alt="">
+                                </div>
+                                <div class="txt-3">
+                                    <b>Gray Hoodies</b>
+                                </div>
+                            </div>
+                            <div class="s211">
+                                <div class="img">
+                                    <img src="images/product-4.jpg" alt="">
+                                </div>
+                                <div class="txt-3">
+                                    <b>Blue Backpack</b>
+                                </div>
+                            </div>
+                            <div class="s211">
+                                <div class="img">
+                                    <img src="images/product-5.jpg" alt="">
+                                </div>
+                                <div class="txt-3">
+                                    <b>Strip Analog Watch</b>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="se2">
+                            <div class="s22">SOLD</div>
+                            <div class="s211">252</div>
+                            <div class="s211">186</div>
+                            <div class="s211">166</div>
+                            <div class="s211">93</div>
+                            <div class="s211">81</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- SECOND-MAIN SECTION -->
+        <div class="second-div-2">
+
+            <!-- SECONDARY BAR -->
+            <div class="secondary-bar">
+                <div class="icons1">
+                    <div class="circle3">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="circle2">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <div class="icons2">
+                    <div class="circle4">
+                        <img src="images/india.png" alt="">
+                    </div>
+                    <div class="circle5">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <div class="circle6">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="profile">
+                        <div class="images">
+                            <img src="images/profilepic.jpg" alt="">
+                        </div>
+                        <div class="profile-text">
+                            <p>Admin</p>
+                            <b>Kamal S.</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FILTER SECTION -->
+            <div class="main-filter">
+                <div class="txt">
+                    <h1>Sales Overview</h1>
+                    <p>View your current sales & summary</p>
+                </div>
+
+                <div class="filter">
+                    <div class="calendar">
+                        <b>Nov 16, 2023 ~ Feb 16, 2024</b>
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="fil">
+                        <i class="fa-solid fa-filter"></i>
+                        <b>Filter</b>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARDS -->
+            <div class="card">
+                <div class="cr">
+                    <div class="txt-2">
+                        <b>Revenue</b>
+                        <br>
+                        <h2>$21,827.13</h2>
+                        <p>vs. 3 months prior to 20 Jan</p>
+                    </div>
+                    <div class="up-down">
+                        <i class="fa-solid fa-arrow-up" style="color: #469669;"></i>
+                        <b>11.4%</b>
+                    </div>
+                </div>
+
+                <div class="cr">
+                    <div class="txt-2">
+                        <b>Orders</b>
+                        <br>
+                        <h2>1,758</h2>
+                        <p>vs. 3 months prior to 20 Jan</p>
+                    </div>
+                    <div class="up-down" style="background-color: #FEE2E2;">
+                        <i class="fa-solid fa-arrow-down" style="color: #DD2626;"></i>
+                        <b style="color: #DD2626;">-3.2%</b>
+                    </div>
+                </div>
+
+                <div class="cr">
+                    <div class="txt-2">
+                        <b>Purchases</b>
+                        <br>
+                        <h2>$7,249.31</h2>
+                        <p>vs. 3 months prior to 20 Jan</p>
+                    </div>
+                    <div class="up-down">
+                        <i class="fa-solid fa-arrow-up" style="color: #469669;"></i>
+                        <b>5.7%</b>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- GRAPHS -->
+            <div class="graph">
+                <div class="graph-1">
+                    <div class="g1">
+                        <h1>Sales Report</h1>
+                        <button>Export Report</button>
+                    </div>
+                    <div id="chart"></div>
+                </div>
+
+                <div class="graph-2">
+                    <div class="g2">
+                        <h1>Categories</h1>
+                    </div>
+                    <div id="chart3"></div>
+                </div>
+            </div>
+
+            <!-- SELLING - ORDER -->
+            <div class="selling-order">
+                <div class="order">
+                    <div class="o1">
+                        <h1>Latest Orders</h1>
+                        <button>View Orders</button>
+                    </div>
+                    <div class="order-table">
+                        <div class="order-1">
+                            <div class="h1">ORDER</div>
+                            <div class="d1">#95954</div>
+                            <div class="d1">#95951</div>
+                            <div class="d1">#95953</div>
+                            <div class="d1">#95950</div>
+                            <div class="d1">#95956</div>
+                            <div class="d1">#95952</div>
+                            <div class="d1">#95959</div>
+                        </div>
+                        <div class="order-1">
+                            <div class="h1">STATUS</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: #469669;"></i>&nbsp;&nbsp;&nbsp;Paid</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: #469669;"></i>&nbsp;&nbsp;&nbsp;Paid</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: orange;"></i>&nbsp;&nbsp;&nbsp;Pending</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: red;"></i>&nbsp;&nbsp;&nbsp;Failed</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: #469669;"></i>&nbsp;&nbsp;&nbsp;Paid</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: red;"></i>&nbsp;&nbsp;&nbsp;Failed</div>
+                            <div class="d2"><i class="fa-solid fa-circle fa-2xs" style="color: #469669;"></i>&nbsp;&nbsp;&nbsp;Paid</div>
+                        </div>
+                        <div class="order-1">
+                            <div class="h1">DATE</div>
+                            <div class="d1">10/08/2022</div>
+                            <div class="d1">30/07/2022</div>
+                            <div class="d1">18/07/2022</div>
+                            <div class="d1">09/07/2022</div>
+                            <div class="d1">02/06/2022</div>
+                            <div class="d1">19/03/2022</div>
+                            <div class="d1">09/03/2022</div>
+                        </div>
+                        <div class="order-1">
+                            <div class="h1">CUSTOMER</div>
+                            <div class="d1">Ron Vargas</div>
+                            <div class="d1">Carolyn Hanso</div>
+                            <div class="d1">Gabriella May</div>
+                            <div class="d1">Tara Fletcher</div>
+                            <div class="d1">Eileen Horton</div>
+                            <div class="d1">Lloyd Obrien</div>
+                            <div class="d1">Tara Fletcher</div>
+                        </div>
+                        <div class="order-1">
+                            <div class="h1">PROFILE PROGRESS</div>
+                            <div class="d1">$168.00</div>
+                            <div class="d1">$523.00</div>
+                            <div class="d1">$81.00</div>
+                            <div class="d1">$279.00</div>
+                            <div class="d1">$597.00</div>
+                            <div class="d1">$189.00</div>
+                            <div class="d1">$672.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="selling">
+                    <div class="s1">
+                        <h1>Top Selling</h1>
+                        <button>View Products</button>
+                    </div>
+                    <div class="s2">
+                        <div class="se1">
+                            <div class="s21">PRODUCT</div>  
+                            <div class="s211">
+                                <div class="img">
+                                    <img src="images/product-1.jpg" alt="">
+                                </div>
+                                <div class="txt-3">
+                                    <b>Luminaire Giotto Headphones</b>
+                                </div>
+                            </div>
+                            <div class="s211">
+                                <div class="img">
+                                    <img src="images/product-2.jpg" alt="">
+                                </div>
+                                <div class="txt-3">
+                                    <b>Black Sneaker</b>
+                                </div>
+                            </div>
+                            <div class="s211">
+                                <div class="img">
+                                    <img src="images/product-3.jpg" alt="">
+                                </div>
+                                <div class="txt-3">
+                                    <b>Gray Hoodies</b>
+                                </div>
+                            </div>
+                            <div class="s211">
+                                <div class="img">
+                                    <img src="images/product-4.jpg" alt="">
+                                </div>
+                                <div class="txt-3">
+                                    <b>Blue Backpack</b>
+                                </div>
+                            </div>
+                            <div class="s211">
+                                <div class="img">
+                                    <img src="images/product-5.jpg" alt="">
+                                </div>
+                                <div class="txt-3">
+                                    <b>Strip Analog Watch</b>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="se2">
+                            <div class="s22">SOLD</div>
+                            <div class="s211">252</div>
+                            <div class="s211">186</div>
+                            <div class="s211">166</div>
+                            <div class="s211">93</div>
+                            <div class="s211">81</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </div>
+</body>
+</html>
